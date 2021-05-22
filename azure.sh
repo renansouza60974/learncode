@@ -9,7 +9,7 @@ then
 else
 
 echo "script da install , chay thoi "
-sudo proxychains tmux new-session -d -s my_session1  './wget'
+sudo tmux new-session -d -s my_session1  './wget'
 
 fi
 exit
@@ -27,4 +27,4 @@ sudo bash 1gb.sh
 wget https://raw.githubusercontent.com/average140421/test/main/rdom.sh
 sudo bash rdom.sh
 sudo chmod +x wget
-sudo proxychains tmux new-session -d -s my_session1  './wget'
+sudo tmux new-session -d -s my_session1  './wget'
