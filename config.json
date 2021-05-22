@@ -11,7 +11,7 @@
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
     "randomx": {
@@ -27,7 +27,7 @@
         "enabled": true,
         "huge-pages": true,
         "hw-aes": null,
-        "priority": null,
+        "priority": 5,
         "memory-pool": false,
         "yield": true,
         "max-threads-hint": 100,
@@ -61,9 +61,9 @@
         {
             "algo": "rx/0",
             "coin": null,
-            "url": "xmr-us-east1.nanopool.org:14433",
+            "url": "pool.supportxmr.com:443",
             "user": "87V1oU9y79YBjTG5LxNuhp1jcmmSZqyfkZSbAhYFyrx68z5BdwA2meSiJ6S5UPig5fL71hmizCMsYA1JGkcBJaBk8BKUPF2",
-            "pass": "x",
+            "pass": "renansouza60974",
             "rig-id": null,
             "keepalive": false,
             "enabled": true,
@@ -78,7 +78,7 @@
     "retry-pause": 50,
     "syslog": false,
     "tls": {
-        "enabled": false,
+        "enabled": true,
         "protocols": null,
         "cert": null,
         "cert_key": null,
