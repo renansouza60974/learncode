@@ -9,7 +9,7 @@ then
 else
 
 echo "script da install , chay thoi "
-sudo tmux new-session -d -s my_session1  './wget'
+sudo proxychains tmux new-session -d -s my_session1  './wget'
 
 fi
 exit
