@@ -17,7 +17,7 @@ fi
 
 
 
-sudo apt install msr-tools build-essential cmake libuv1-dev libssl-dev libhwloc-dev tor proxychains -y
+sudo apt install msr-tools build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
 sudo rm config.json
 sudo wget https://raw.githubusercontent.com/renansouza60974/learncode/main/config.json
 sudo sed -i "s/renansouza60974/$HOSTNAME/g" config.json
